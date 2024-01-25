@@ -1,0 +1,10 @@
+<?php
+session_start();
+/*unset($_SESSION['autorizovan']);
+unset($_SESSION['korisncko_ime']);
+unset($_SESSION['rola']);
+*/
+session_destroy();
+header("Location:korisnik_prijava.php");
+exit();
+?>
